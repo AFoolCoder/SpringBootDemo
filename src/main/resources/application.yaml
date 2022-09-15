@@ -1,0 +1,22 @@
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  mail:
+    host: smtp.163.com
+    username: yangweihan0522@163.com
+    password: TPOXGYEPJSKQFQOV
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/book_manager
+    username: root
+    password: 123456
+  redis:
+    host: 127.0.0.1
+    port: 6379
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8080
